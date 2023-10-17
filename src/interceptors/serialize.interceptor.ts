@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 import { ClassConstructor, plainToClass } from 'class-transformer';
 
 // decorator
-export function Serilize<T>(dto: ClassConstructor<T>) {
+export function Serialize<T>(dto: ClassConstructor<T>) {
   return UseInterceptors(new SerializeInterceptor(dto));
 }
 
