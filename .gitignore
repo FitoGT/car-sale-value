@@ -34,3 +34,5 @@ db.sqlite
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.env*
+test.sqlite
