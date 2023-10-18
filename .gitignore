@@ -13,7 +13,6 @@ lerna-debug.log*
 
 # OS
 .DS_Store
-db.sqlite
 
 # Tests
 /coverage
@@ -36,3 +35,4 @@ db.sqlite
 !.vscode/extensions.json
 .env*
 test.sqlite
+db.sqlite
